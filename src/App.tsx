@@ -1,9 +1,11 @@
+import QuoteBox from "./components/QuoteBox"
+
 function App() {
   return (
-    <>
-      <h2 className="text-red-500">Hello, World</h2>
-    </>
-  )
+    <main className="flex flex-col justify-center items-center h-screen w-screen">
+      <QuoteBox />
+    </main>
+  );
 }
 
 export default App
